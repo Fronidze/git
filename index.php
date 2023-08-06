@@ -12,6 +12,9 @@ class Project{
     public function username(): string {
         return 'ivanov';
     }
+    public function age(): int {
+        return 33;
+    }
 
 }
 
