@@ -9,6 +9,9 @@ class Project{
     public function version(): string {
         return static::VERSION;
     }
+    public function username(): string {
+        return 'ivanov';
+    }
 
 }
 
